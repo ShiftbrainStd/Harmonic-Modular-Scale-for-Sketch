@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="app-grid"
+>
+  <div
+    class="value"
+  >
+    <div>
+      <label>
+        <input
+          type="checkbox"
+        />
+         Normalize
+        automatically
+      
+      </label>
+    </div>
+  </div>
+   
+  <div
+    class="full"
+    hidden="hidden"
+  >
+    <div>
+      <hr />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+    hidden="hidden"
+  >
+    <div>
+      Font Size Degree:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+    hidden="hidden"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <input
+        aria-label="Font Size Degree"
+        list="fontSizeDegree-marks"
+        max="7"
+        min="-4"
+        style="flex-grow: 1;"
+        type="range"
+      />
+       
+      <input
+        aria-label="Font Size Degree"
+        autofocus="autofocus"
+        max="7"
+        min="-4"
+        style="flex-shrink: 0; margin-left: 8px;"
+        type="number"
+      />
+       
+      <datalist
+        id="fontSizeDegree-marks"
+      >
+        <option
+          label="-4"
+          value="-4"
+        />
+         
+        <option
+          label="0"
+          value="0"
+        />
+         
+        <option
+          label="7"
+          value="7"
+        />
+      </datalist>
+    </div>
+  </div>
+   
+  <div
+    class="value"
+    hidden="hidden"
+    style="margin-top: 4px;"
+  >
+    <div
+      class="text-formula"
+      style="visibility: hidden;"
+    >
+      
+      NaNpx = 8 / (8
+      - NaN) * 16px
+    
+    </div>
+  </div>
+   
+  <div
+    class="full"
+  >
+    <div>
+      <hr />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Scale Factor:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Scale Factor"
+        max="16"
+        min="4"
+        type="number"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Base Font Size:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Base Font Size"
+        max="24"
+        min="12"
+        type="number"
+      />
+      
+      px
+    
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Line Height Unit:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Line Height Unit"
+        max="8"
+        min="2"
+        step="2"
+        type="number"
+      />
+      
+      px
+    
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text layers should have a placeholder for input 1`] = `
+<div
+  class="app-grid"
+>
+  <div
+    class="value"
+  >
+    <div>
+      <label>
+        <input
+          type="checkbox"
+        />
+         Normalize
+        automatically
+      
+      </label>
+    </div>
+  </div>
+   
+  <div
+    class="full"
+  >
+    <div>
+      <hr />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Font Size Degree:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <input
+        aria-label="Font Size Degree"
+        list="fontSizeDegree-marks"
+        max="7"
+        min="-4"
+        style="flex-grow: 1;"
+        type="range"
+      />
+       
+      <input
+        aria-label="Font Size Degree"
+        autofocus="autofocus"
+        max="7"
+        min="-4"
+        placeholder="Multi"
+        style="flex-shrink: 0; margin-left: 8px;"
+        type="number"
+      />
+       
+      <datalist
+        id="fontSizeDegree-marks"
+      >
+        <option
+          label="-4"
+          value="-4"
+        />
+         
+        <option
+          label="0"
+          value="0"
+        />
+         
+        <option
+          label="7"
+          value="7"
+        />
+      </datalist>
+    </div>
+  </div>
+   
+  <div
+    class="value"
+    style="margin-top: 4px;"
+  >
+    <div
+      class="text-formula"
+      style="visibility: hidden;"
+    >
+      
+      NaNpx = 8 / (8
+      - NaN) * 16px
+    
+    </div>
+  </div>
+   
+  <div
+    class="full"
+  >
+    <div>
+      <hr />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Scale Factor:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Scale Factor"
+        max="16"
+        min="4"
+        type="number"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Base Font Size:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Base Font Size"
+        max="24"
+        min="12"
+        type="number"
+      />
+      
+      px
+    
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Line Height Unit:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Line Height Unit"
+        max="8"
+        min="2"
+        step="2"
+        type="number"
+      />
+      
+      px
+    
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text layers should have a value for input 1`] = `
+<div
+  class="app-grid"
+>
+  <div
+    class="value"
+  >
+    <div>
+      <label>
+        <input
+          type="checkbox"
+        />
+         Normalize
+        automatically
+      
+      </label>
+    </div>
+  </div>
+   
+  <div
+    class="full"
+  >
+    <div>
+      <hr />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Font Size Degree:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <input
+        aria-label="Font Size Degree"
+        list="fontSizeDegree-marks"
+        max="7"
+        min="-4"
+        style="flex-grow: 1;"
+        type="range"
+      />
+       
+      <input
+        aria-label="Font Size Degree"
+        autofocus="autofocus"
+        max="7"
+        min="-4"
+        style="flex-shrink: 0; margin-left: 8px;"
+        type="number"
+      />
+       
+      <datalist
+        id="fontSizeDegree-marks"
+      >
+        <option
+          label="-4"
+          value="-4"
+        />
+         
+        <option
+          label="0"
+          value="0"
+        />
+         
+        <option
+          label="7"
+          value="7"
+        />
+      </datalist>
+    </div>
+  </div>
+   
+  <div
+    class="value"
+    style="margin-top: 4px;"
+  >
+    <div
+      class="text-formula"
+    >
+      
+      16px = 8 / (8
+      - 0) * 16px
+    
+    </div>
+  </div>
+   
+  <div
+    class="full"
+  >
+    <div>
+      <hr />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Scale Factor:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Scale Factor"
+        max="16"
+        min="4"
+        type="number"
+      />
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Base Font Size:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Base Font Size"
+        max="24"
+        min="12"
+        type="number"
+      />
+      
+      px
+    
+    </div>
+  </div>
+   
+  <div
+    class="key"
+  >
+    <div>
+      Line Height Unit:
+    </div>
+  </div>
+   
+  <div
+    class="value"
+  >
+    <div>
+      <input
+        aria-label="Line Height Unit"
+        max="8"
+        min="2"
+        step="2"
+        type="number"
+      />
+      
+      px
+    
+    </div>
+  </div>
+</div>
+`;

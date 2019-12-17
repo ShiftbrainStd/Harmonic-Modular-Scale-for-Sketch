@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Type Scale Settings…",
+      "identifier": "harmonic-modular-scale.type-scale-settings-identifier",
+      "script": "./type-scale-settings.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged",
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "Harmonic Modular Scale",
+    "items": ["harmonic-modular-scale.type-scale-settings-identifier"]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "harmonic-modular-scale",
+  "description": "文字サイズと行の高さの値を規則に基づいて設定するためのSketchプラグイン。",
+  "version": "0.0.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "Harmonic Modular Scale",
+    "manifest": "src/manifest.json",
+    "main": "harmonic-modular-scale.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "resources": [
+    "resources/**/*.js"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf $npm_package_skpm_main",
+    "build": "NODE_ENV=production skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^0.3.4",
+    "lodash": "^4.17.15",
+    "sketch-module-web-view": "^3.4.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.4",
+    "@skpm/extract-loader": "^2.0.2",
+    "@types/jest": "^24.0.23",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.16",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "css-loader": "^3.3.0",
+    "html-loader": "^0.5.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "vue-jest": "^3.0.5",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "author": "Yuhei Yasuda <yuhei.yasuda1003@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiftbrainStd/Harmonic-Modular-Scale-for-Sketch.git"
+  },
+  "jest": {
+    "globals": {
+      "vue-jest": {
+        "babelConfig": false
+      }
+    },
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest",
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testURL": "http://localhost/",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
+  }
+}

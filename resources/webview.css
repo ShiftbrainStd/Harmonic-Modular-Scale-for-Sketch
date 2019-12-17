@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html {
+  font-family: system-ui;
+  cursor: default;
+}
+
+body {
+  margin: 16px 20px;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--color-label);
+  background-color: transparent;
+}
+
+.__skpm-light {
+  --color-label: #242424;
+  --color-label-secondary: #767676;
+  --color-separator: #d5d5d5;
+  --color-control: #fff;
+  --color-control-tint: #bdbdbd;
+}
+
+.__skpm-dark {
+  --color-label: #e2e1e0;
+  --color-label-secondary: #aaa8a3;
+  --color-separator: #545146;
+  --color-control: #4c423a;
+  --color-control-tint: #5a5659;
+}
+
+hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 1px;
+  background-color: var(--color-separator);
+  border: 0;
+}
+
+mark {
+  padding: 0.125em 0.25em;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  background-color: var(--color-control);
+  border: 1px solid var(--color-control-tint);
+  -webkit-user-select: auto;
+  user-select: auto;
+}
+
+input[type="number"] {
+  min-width: 8ch;
+  padding: 3px 0 3px 4px;
+  font-size: inherit;
+  line-height: inherit;
+  font-variant-numeric: tabular-nums;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: [full] 12px [key] 1fr [value] 2fr 12px [full-end];
+  column-gap: 8px;
+  align-items: center;
+  margin-top: -8px;
+}
+
+.app-grid > * {
+  margin-top: 8px;
+}
+
+.app-grid > .full {
+  grid-column: full;
+}
+
+.app-grid > .key {
+  grid-column: key;
+  text-align: right;
+}
+
+.app-grid > .value {
+  grid-column: value;
+}
+
+.text-formula {
+  font-size: 11px;
+  line-height: 13px;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-label-secondary);
+}
+
+[hidden] {
+  display: none !important;
+}
