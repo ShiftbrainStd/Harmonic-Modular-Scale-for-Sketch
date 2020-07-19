@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@vue/composition-api": "^0.3.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "sketch-module-web-view": "^3.4.1",
     "vue": "^2.6.10"
   },
